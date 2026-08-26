@@ -34,10 +34,10 @@ jobs:
           pip install \
             playwright \
             requests \
-            tabulate
+            tabulate \
+            duckduckgo-search
 
       # ── 4. Install Playwright Chromium (for JS job detail pages) ──────────
-      #       This works on ubuntu-latest (GitHub provides sudo access)
       - name: Install Playwright Chromium
         run: |
           python -m playwright install chromium --with-deps
@@ -67,7 +67,7 @@ jobs:
         run: |
           echo "🚀 Starting job scraper..."
           echo "📅 Date: $(date)"
-          python scrapper.py
+          python scraper.py
           echo "✅ Scraper finished"
 
       # ── 7. Upload CSV as artifact (always runs, even if push fails) ────────
