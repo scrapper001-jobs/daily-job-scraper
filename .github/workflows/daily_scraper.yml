@@ -2,37 +2,91 @@ name: Daily Job AI Scraper
 
 on:
   schedule:
+    # Runs every day at 1:00 AM UTC (6:30 AM IST)
     - cron: '00 1 * * *'
-  workflow_dispatch: 
+  # Allows you to trigger manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   scrape-and-push:
     runs-on: ubuntu-latest
+    timeout-minutes: 45  # Kill if stuck (saves minutes quota)
+
     steps:
+      # ── 1. Checkout repo ──────────────────────────────────────────────────
       - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/checkout@v4
         with:
-          python-version: '3.10'
+          # Use PAT so we can push back to the repo
+          token: ${{ secrets.GH_PAT }}
 
-      - name: Install Dependencies
+      # ── 2. Python setup ───────────────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # ── 3. Install Python dependencies ────────────────────────────────────
+      - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install playwright requests tabulate duckduckgo-search
-          # GitHub Actions లో sudo పర్మిషన్ ఉంటుంది కాబట్టి ఇది 100% పనిచేస్తుంది!
-          npx playwright install --with-deps
+          pip install \
+            playwright \
+            requests \
+            tabulate
 
+      # ── 4. Install Playwright Chromium (for JS job detail pages) ──────────
+      #       This works on ubuntu-latest (GitHub provides sudo access)
+      - name: Install Playwright Chromium
+        run: |
+          python -m playwright install chromium --with-deps
+          echo "✅ Playwright chromium installed"
+
+      # ── 5. Validate secrets are set ───────────────────────────────────────
+      - name: Validate Secrets
+        run: |
+          if [ -z "${{ secrets.NVIDIA_NIM_API_KEY }}" ]; then
+            echo "❌ NVIDIA_NIM_API_KEY secret is NOT set!"
+            echo "   Go to: Settings → Secrets → Actions → New repository secret"
+            exit 1
+          fi
+          echo "✅ NVIDIA_NIM_API_KEY is set"
+          if [ -z "${{ secrets.GH_PAT }}" ]; then
+            echo "❌ GH_PAT secret is NOT set! CSV will not be pushed to repo."
+          else
+            echo "✅ GH_PAT is set"
+          fi
+
+      # ── 6. Run the AI Job Scraper ─────────────────────────────────────────
       - name: Run AI Job Scraper
         env:
           NVIDIA_NIM_API_KEY: ${{ secrets.NVIDIA_NIM_API_KEY }}
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python scraper.py
+        run: |
+          echo "🚀 Starting job scraper..."
+          echo "📅 Date: $(date)"
+          python scrapper.py
+          echo "✅ Scraper finished"
 
+      # ── 7. Upload CSV as artifact (always runs, even if push fails) ────────
       - name: Upload CSV as Artifact (Backup)
         uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: daily-jobs-csv
+          name: daily-jobs-${{ github.run_number }}
           path: jobs_ai_agent_output.csv
+          if-no-files-found: warn
+          retention-days: 30
+
+      # ── 8. Show summary ────────────────────────────────────────────────────
+      - name: Print Summary
+        if: always()
+        run: |
+          if [ -f "jobs_ai_agent_output.csv" ]; then
+            LINES=$(wc -l < jobs_ai_agent_output.csv)
+            echo "📊 CSV has $((LINES - 1)) job records"
+          else
+            echo "⚠️ No CSV file generated"
+          fi
