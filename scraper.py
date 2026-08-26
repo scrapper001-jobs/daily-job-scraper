@@ -46,7 +46,7 @@ except ImportError:
 # ╔══════════════════════════════════════════════════════════╗
 # ║  ⚙️  CONFIG — Edit these values                          ║
 # ╚══════════════════════════════════════════════════════════╝
-TEST_MODE = True  # ← True = quick 5-job test | False = full daily run
+TEST_MODE = False  # ← True = quick 5-job test | False = full daily run
 
 CONFIG = {
     # ── NVIDIA NIM ────────────────────────────────────────
