@@ -1070,3 +1070,141 @@ c8a5f0f7-8124-46b7-9d94-fe88d6ed7289,f1490d3f630c482d46900f99e29c72af,2026-09-02
 &lt;li&gt;Work with Engineering and Databricks Customer Support to provide product and implementation feedback and to guide rapid resolution for engagement specific product and support issues.&lt;/li&gt;
 &lt;li&gt;Customer Immersion: Embed with customer teams, engaging with stakeholders from technical ICs to executives to deeply understand challenges and deliver impact.&lt;/li&gt;
 &lt;li&gt;Reusable Assets &amp;amp; Scale: Contribute accelerators, frameworks, and best practices that scale",361,,,https://databricks.com/company/careers/open-positions/job?gh_jid=8540455002,,8540455002,False,50,Partial,,none,3
+f3dfda4e-cd7e-493a-813a-c83ca7d410eb,582f1a5e724449ef223b3ef642ed1910,2026-09-07,LinkedIn,Machine Learning Engineer,Founding AI Engineer,Pearl,"San Francisco, CA",Not specified,,Not specified,,2 hours ago,"FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI systems that solve the hardest problems in robotics and unlock the full potential of embodied intelligence. If you want your work to ship, get tested on hardware, and improve through real deployments, Irvine is the place. We go beyond typical data-driven approaches or pure transformer-only architectures, combining rigorous engineering with learning systems proven in globally deployed solutions that deliver results today and get better every time our robots run in the field.
+
+
+
+
+What You’ll Do
+
+
+Design and implement scalable machine learning pipelines for large-scale 3D spatial data processing for point cloud analysis, object detection, segmentation, and scene understanding
+
+
+Train, optimize, and deploy deep learning models using PyTorch, TensorFlow, or equivalent frameworks on cloud platforms such as AWS (e.g., SageMaker, EC2)
+
+
+Collaborate with software and systems engineers to integrate models into production environments and continuously improve inference pipelines
+
+
+Analyze diverse sensor inputs, including RGBD imagery, LiDAR point clouds, 360 photos, audio, and Building Information Models (BIM)
+
+
+Work closely with the labeling and data operations teams to define robust data annotation strategies and ensure high model performance and generalization
+
+
+
+
+
+
+
+What You Have
+
+
+Bachelor’s or Master’s degree in Computer Science, Machine Learning, Robotics, or a related technical field
+
+
+2+ years of hands-on industry experience developing and deploying machine learning systems for 3D point clouds, perception, or spatial understanding tasks
+
+
+Strong background in 3D machine learning, with experience in deep learning for point clouds, multi-view fusion, or geometric learning
+
+
+Strong expertise in Python and deep learning frameworks: PyTorch, TensorFlow, or similar
+
+
+Familiarity with OpenCV and PCL (Point Cloud Library) for classical computer vision and 3D data preprocessing
+
+
+Experience training, evaluating, and deploying ML models using cloud infrastructure (e.g., AWS, SageMaker) and containerized workflows
+
+
+Solid understanding of the end-to-end ML lifecycle, including experiment tracking, reproducibility, model versioning, and optimization for production
+
+
+Proven ability to work in fast-paced, interdisciplinary teams across software, ML, and product teams
+
+
+
+
+
+
+
+The Extras That Set You Apart
+
+
+Experience working with BIM data, digital twins, or construction-related sensor data
+
+
+Background in geometric deep learning, 3D mesh analysis, GIS systems, or structured scene representations
+
+
+Familiar with MLOps pipelines using Ray, SageMaker, MLflow, or Kubeflow
+
+
+Strong foundation in geometric computer vision, robotics, or algorithmic 3D reasoning
+
+
+Exposure to graph neural networks, geodesic computations, or neural implicit representations (e.g., NeRF, Occupancy Networks)
+
+
+Deep experience with point cloud and graph learning frameworks such as Open3D-ML, Torch-Points3D, PyG, or MMDetection3D
+
+
+Experience building custom modules for SparseConvNet or 3D transformers
+
+
+
+
+
+
+
+
+
+
+Our salary range is generous and we consider each individual’s background and experience when determining final compensation. Base pay may vary based on role scope, job-related knowledge, skills, experience, and the Irvine, California market.
+
+
+
+
+ 
+
+
+
+
+Why Join FieldAI in Irvine?
+
+
+
+
+In Irvine, you will work where the robots are. Our local team builds and tests systems on real hardware with real sensors, then ships them to operate in unstructured, previously unknown environments around the world. We are solving one of robotics’ hardest challenges: reliable deployment outside the lab. Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use.
+
+
+
+
+You will collaborate with a world-class team that thrives on creativity, resilience, and bold thinking. We bring deep experience from organizations such as DeepMind, NASA JPL, Boston Dynamics, NVIDIA, Amazon, Tesla Autopilot, Cruise, Zoox, Toyota Research Institute, and SpaceX, along with a track record of field deployments and strong performance in DARPA challenge segments.
+
+
+
+
+ 
+
+
+
+
+Be Part of the Next Robotics Revolution
+
+
+
+
+We are looking for builders who want their work to leave the whiteboard and show up on robots. If you enjoy tackling tough, uncharted questions and working across disciplines, you will find your people here. Our teams span AI, software, robotics engineering, product, field deployment, and technical communication, all focused on shipping systems that perform in the real world.
+
+
+
+
+ 
+
+
+
+
+Our headquarters is in Irvine, and we partner closely with teams there as well as colleagues across the US and around the world. Join us in Southern California and help define what ",829,,,https://www.linkedin.com/jobs/view/3d-machine-learning-engineer-at-fieldai-4361173628,,3,False,50,Partial,,none,3
