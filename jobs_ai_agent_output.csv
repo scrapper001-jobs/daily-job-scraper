@@ -1845,3 +1845,66 @@ dbc20ccd-2268-48b1-997d-8d3da9f3a633,cf5ea9e7861b9d94809705065b57aa51,2026-09-19
 &lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Fivetran and dbt Labs are bringing together two industry-leading companies with a shared mission: helping organizations unlock the full value of their data.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10pt; font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Together, we’re delivering the data infrastructure layer that helps organizations move, transform, and trust their data — from the moment data moves, through every transformation, to the context teams and AI systems rely on.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10pt; font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Fivetran helps organizations automate data movement across the systems, clouds, engines, and tools they rely on. dbt Labs pioneered analytics engineering, helping teams transform data into reliable, governed insights. Together, we support thousands of organizations as they build a trusted foundation for analytics, AI, and better business decisions.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10pt; font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;As we bring our teams and technology together, we’re building on the strengths of both companies while continuing to deliver the products and experiences our customers know and trust. It’s an exciting time to join us: we’re creating a company with the scale, talent, and technology to help more organizations put their data to work with greater speed, confidence, and impact.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10pt; font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;During this transition period, you may see references to both Fivetran and dbt Labs throughout our recruiting process as we integrate our teams, systems, and career sites.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Fivetran is building data pipelines to power the modern data stack",342,,,https://www.fivetran.com/careers/job?gh_jid=7994710003,,7994710003,False,50,Partial,,none,3
+05413dfc-4cd8-4e4f-8c9a-9d2a4873bc8c,70d8c98f73eb8d1d434db01eea97d7ce,2026-09-20,LinkedIn,ETL Developer,10607 - Senior Data Engineer (Python),Hyundai AutoEver America,"Irvine, CA",Not specified,,Not specified,,10 hours ago,"10607 – Senior Data Engineer
+
+Location: Irvine, CA
+
+Company Overview
+
+Hyundai AutoEver America (HAEA) is the dynamic IT powerhouse behind Hyundai Motor Corporation, a Fortune 500 global leader in the automotive industry. As a key affiliate, we provide cutting-edge IT services and support to top brands including Kia, Genesis, Hyundai Translead, Hyundai Mobis, Hyundai Capital, and Glovis.
+
+HAEA offers a truly global and collaborative environment. Here, you’ll drive innovation, boost operational efficiency, and help shape the future of mobility for the Hyundai Motor Group.
+
+At HAEA, we understand that IT is the cornerstone of today’s fast-evolving digital world. By uniting all IT resources under one roof, we deliver consistent, top-quality solutions while serving as the crucial information link between Hyundai’s Global Headquarters and North American operations.
+
+If you’re passionate about technology and eager to make a real impact at a world-class company, Hyundai AutoEver America is the place to grow your career. Join us and be part of the transformation that’s driving the future of automotive innovation.
+
+Website: http://www.haeaus.com
+
+Role Overview:
+
+We are seeking a motivated and detail-oriented Senior Data Engineer to join our growing data engineering team. The ideal candidate will have strong experience in Python-based data engineering, workflow orchestration using Apache Airflow, and building scalable data solutions using Lakehouse and Medallion Architecture (Bronze, Silver, Gold) principles.
+
+In this role, you will collaborate with data scientists, analysts, architects, and business stakeholders to design, develop, and optimize modern data pipelines that support analytics, reporting, and advanced data-driven initiatives. The successful candidate will have hands-on expertise in data ingestion, transformation, data quality, automation, and cloud-based data platforms.
+
+Key Responsibilities
+
+
+Design, develop, and maintain scalable and reliable Python-based data pipelines for ingesting, processing, and transforming large volumes of data.
+Build and manage data workflows using Apache Airflow, including scheduling, monitoring, alerting, and troubleshooting production jobs.
+Implement and support Medallion Architecture (Bronze, Silver, Gold) data layers to enable efficient data processing, governance, and analytical consumption.
+Develop robust ETL/ELT solutions to ingest data from databases, APIs, flat files, streaming sources, and third-party systems into enterprise data platforms.
+Create reusable Python frameworks and libraries to standardize data ingestion, transformation, validation, and monitoring processes.
+Apply data quality checks, validation rules, and reconciliation processes to ensure accuracy and reliability of data assets.
+Optimize data pipelines for performance, scalability, fault tolerance, and cost efficiency.
+Manage production data workloads, perform root cause analysis, and implement performance tuning strategies.
+Design and maintain data models that align with business requirements and support analytics, reporting, and machine learning use cases.
+Collaborate with cross-functional teams to translate business requirements into scalable technical solutions.
+Develop automation solutions for operational processes, deployment activities, and data quality monitoring.
+Implement CI/CD best practices for data engineering workflows, including version control, testing, and automated deployments.
+Create and maintain monitoring dashboards, alerts, and operational metrics for data pipeline health and performance.
+Ensure adherence to data governance, security, compliance, and metadata management standards.
+Document data architecture, pipeline designs, transformation logic, and operational procedures.
+Support the implementation of master data management, reference data management, and enterprise data integration initiatives as needed.
+Contribute to the continuous improvement of data engineering best practices, coding standards, and architectural frameworks.
+
+
+Basic Qualifications
+
+
+7+ years of experience in data warehouse or MDM applications.
+Bachelor's degree in computer science, Information Technology, or related field.
+Extensive knowledge of SQL and experience with relational databases.
+Strong programming and scripting skills, including Python and PL/SQL.
+Hands-on experience developing ETL/ELT data pipelines and supporting production data workloads.
+
+
+Preferred Qualifications
+
+
+Experience implementing Lakehouse architectures and Bronze/Silver/Gold (Medallion) data models.
+Experience with cloud-based data platforms such as Azure Data Lake, AWS, or GCP.
+Familiarity with Spark/PySpark and distributed data processing frameworks.
+Experience with Git, CI/CD pipelines, and DevOps practices.
+Experience designing reusable frameworks for data ingestion, transformation, validation, and monitoring.
+Familiarity with data governance, security, compliance, metadata management, master data management, or reference data m",889,,,https://www.linkedin.com/jobs/view/10607-senior-data-engineer-python-at-hyundai-autoever-america-4449785978,,10607,False,50,Partial,,none,3
