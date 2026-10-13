@@ -1985,3 +1985,43 @@ f26fbb97-0f38-4316-98b2-2a063a71b1c5,a55cf9120e92038bf4cce4ef73ab8bcc,2026-10-06
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p data-renderer-start-pos=&quot;2289&quot;&gt;Help customers accelerate their Data and AI strategies across ar",278,,,https://databricks.com/company/careers/open-positions/job?gh_jid=8693320002,,8693320002,False,50,Partial,,none,3
+cb8306af-10aa-48cc-a7c8-44e0e81d3bb5,6beeee2e73fd0b8801c979db3cad3f95,2026-10-13,Greenhouse,Data Engineer,Accounting Data & Technology Manager,Databricks,"San Francisco, California",Not specified,,Not specified,,2026-10-12,"&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;GAQ327R291&lt;/p&gt;
+&lt;p data-renderer-start-pos=&quot;2729&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;Accounting Data &amp;amp; Technology Manager&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;We are building a finance function that stays ahead of the curve — leveraging AI, automation, and modern tooling to operate at the pace Databricks demands. We are seeking an Accounting Data &amp;amp; Technology Manager to join our Global Accounting team and serve as the architect of the redesign of our accounting processes by building automation solutions and managing data pipelines that power our global accounting organization. You will serve as the accounting team&#39;s S/4HANA expert — the person who ensures our in-flight SAP implementation reflects best practice rather than a lift-and-shift of how we operate in NetSuite today.&lt;/p&gt;
+&lt;p&gt;You will be responsible for bridging the gap between our team&#39;s subject matter experts, our technology solutions, and the business data needed to support accounting operations. In addition to SAP ownership, this role will build purposeful, reliable solutions on top of the Databricks platform and Finance Datalake to accelerate global accounting operations.&lt;/p&gt;
+&lt;p&gt;During the SAP implementation, you will work alongside our system integrator to challenge design decisions, identify where SAP&#39;s native capabilities can replace manual workarounds, and ensure the accounting team is building on the right foundation from day one.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Post go-live, the role transitions to continuous improvement — owning automation opportunities, streamlining close processes as SAP capabilities evolve, and ensuring Databricks is getting progressively more value out of the platform over time rather than running it as a static system.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This is a rare opportunity to shape a major ERP platform from day one at one of the world&#39;s fastest-growing technology companies, with the autonomy to define how SAP works for accounting at Databricks — and how it connects to the most advanced data and AI platform in the market.&lt;/p&gt;
+&lt;h2&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;What You&#39;ll Do&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;SAP Implementation Governance (Near-Term)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Work alongside our system integrator as the accounting team&#39;s internal SAP S/4HANA subject matter expert throughout the implementation program.&lt;/li&gt;
+&lt;li&gt;Challenge design decisions and configuration choices — ensuring they reflect SAP best practice rather than replicating current-state NetSuite processes.&lt;/li&gt;
+&lt;li&gt;Identify where SAP&#39;s native capabilities (standard workflows, automated posti",354,,,https://databricks.com/company/careers/open-positions/job?gh_jid=8688861002,,8688861002,False,50,Partial,,none,3
+accde887-8c40-4e29-aeea-cd96f08e009d,e62b610f0d698af0e9c71899cd140601,2026-10-13,Greenhouse,Data Engineer,AI Automation Engineer,Databricks,Costa Rica,Not specified,,Not specified,,2026-10-12,"&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;GAQ427R224&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We&#39;re hiring an AI Automation Engineer to build the next generation of IT automations to improve the employee experience at Databricks.&lt;/p&gt;
+&lt;p&gt;You&#39;ll be building production-grade AI agents and automation services that understand employee requests, retrieve enterprise context, reason across systems, invoke tools and APIs, and take action safely. The goal isn&#39;t to automate existing workflows the same way we&#39;ve done it for the past decade. It&#39;s to reimagine how employees interact with IT through intelligent, contextual, and increasingly agentic experiences and to do it on Databricks.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;What you will do&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Build AI agents and automations: Design, deploy, and run AI agents that support all of our employees. The agents interpret natural-language requests, gather context, select tools, execute actions, and communicate outcomes.&lt;/li&gt;
+&lt;li&gt;Maintain MCP servers across our AI tools portfolio.&lt;/li&gt;
+&lt;li&gt;Build agentic workflows that decompose goals into steps, handle failures, pause for human approval as needed, and resume their workflows.&lt;/li&gt;
+&lt;li&gt;Ground agents&lt;strong&gt; &lt;/strong&gt;in trusted internal knowledge (policies, runbooks, system documentation, SOPs, etc).&lt;/li&gt;
+&lt;li&gt;Turn high-volume support CUJs into self-service experiences: Identify repetitive, high-friction IT interactions and convert them into reliable AI automation experiences.&lt;/li&gt;
+&lt;li&gt;Instrument AI automations with logs, metrics, and feedback loops.&lt;/li&gt;
+&lt;li&gt;Design and implement AI automations with identity governance, tools RBAC, human-in-the-loop approvals where applicable, audit trails, and failure handling.&lt;/li&gt;
+&lt;li&gt;Create shared automation infrastructure (credential vaults, event ingestion, scheduling, approval workflows, cache/state stores) that other teams can build on.&lt;/li&gt;
+&lt;li&gt;Work with IT Support, Employee Experience, Security, IAM, Infrastructure, and Engineering to identify automation opportunities and take solutions from prototype to production.&lt;/li&gt;
+&lt;li&gt;Write and maintain high-quality technical/engineering documentation that clearly communicates system designs, operational procedures, and architectural decisions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;What we are looking for&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Proficiency in Python.&lt;/li&gt;
+&lt;li&gt;Experience with Git-based development, automated testing, and CI/CD.&lt;/li&gt;
+&lt;li&gt;Strong experience with REST APIs, OAuth2/authentication frameworks, event-driven integrations, and enterprise system integrations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Shipped production LLM-powered applications or AI agents.&lt;/li&gt;
+&lt;li&gt;Experience with ag",317,,,https://databricks.com/company/careers/open-positions/job?gh_jid=8829033002,,8829033002,False,50,Partial,,none,3
