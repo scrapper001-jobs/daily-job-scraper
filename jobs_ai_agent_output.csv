@@ -2267,3 +2267,22 @@ b16bb530-ecb8-44fc-85e8-7b7b8787e45b,443e63b238a0e742812eae2b30afb270,2026-11-05
 &lt;li&gt;Extensive years of hands-on industry data science experience, leveraging common machine learning and data science tools, i.e. pandas, scikit-learn, PyTorch, etc.&lt;/li&gt;
 &lt;li&gt;Experience building production-grade machine learning deployments on AWS, Azure, or GCP&lt;/li&gt;
 &lt;li&gt;Graduate degree in a quantitative discipline (Computer Science, Engineering, Statist",320,,,https://databricks.com/company/careers/open-positions/job?gh_jid=8930381002,,8930381002,False,50,Partial,,none,3
+f9e78e63-e976-44ec-8912-83749cbc9e3a,7ae257ced9c3ccbad612f9c42149c418,2026-11-06,Greenhouse,Data Engineer,Director of Engineering - Databricks Commercialization & Marketplace,Databricks,"Bellevue, Washington",Not specified,,Not specified,,2026-11-05,"&lt;p&gt;&lt;strong&gt;Director of Engineering - Databricks Commercialization &amp;amp; Marketplace&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;&lt;strong&gt;P-1630&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Every product Databricks ships has to be priced, contracted, rated and billed before it can earn a dollar. The Money organization builds the systems that make this happen, at hyperscaler scale and across every major cloud. We built the world&#39;s only cross-cloud integrated rating engine in-house, and it now rates billions of dollars in revenue. Our next goal is bigger: a fully automated, zero-touch order-to-cash flow where the platform is the source of truth for accounts, contracts and subscriptions, and Month End Close needs little or no human intervention.&lt;/p&gt;
+&lt;p&gt;As Director of Engineering, you will lead the engineering organization that owns this commercial engine from start to finish. You will set the product and technology strategy for how Databricks makes money. You will be the engineering voice Finance, Product and GTM leaders turn to for strategic decisions. You will also build the leadership bench that lets the organization keep scaling.&lt;/p&gt;
+&lt;p&gt;Speed is critical. Databricks keeps inventing new ways to sell: commit and pay-as-you-go, marketplaces, conditional benefits, strategic partnerships and new clouds and regions. The commerce engine either makes each of these fast and safe to launch, or it becomes the bottleneck. You will make sure it is the former.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&#39;ll own&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The org covers six commercial domains:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pricing configuration:&lt;/strong&gt; SKUs, multipliers, price-change processes, deal desk and discounting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Orders and contracts:&lt;/strong&gt; from negotiated quote to order to signed customer contract&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Subscriptions:&lt;/strong&gt; commit, pay-as-you-go and proof-of-concept subscriptions, plus how contracts are tied to payment methods&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rating:&lt;/strong&gt; applying each customer&#39;s negotiated price, discounts and conditional benefits to ingested usage to compute the bill&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Billing:&lt;/strong&gt; commit drawdown, invoicing, Month End Close and related financial processes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marketplace:&lt;/strong&gt; third-party data and solutions, available seamlessly to Databricks customers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The impact you&#39;ll have&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Set and communicate the vision.&lt;/strong&gt; Write the multi-year product and technology strategy for the commerce engine, toward a zero-touch order-to-cash flow and a next-generation billing architectu",329,,,https://databricks.com/company/careers/open-positions/job?gh_jid=8932679002,,8932679002,False,50,Partial,,none,3
